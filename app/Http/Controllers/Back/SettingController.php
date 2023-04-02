@@ -45,7 +45,7 @@ class SettingController extends Controller
             $settings_array[$sRow->uniqname] = $sRow->value;
         }
         $ret_view_array['settings'] = $settings_array;
-        return view('panel.admin.settings.mail_server', $ret_view_array);
+        return view('back.settings.mail_server', $ret_view_array);
     }
 
     public function postSettings(Request $request)  {
@@ -114,29 +114,6 @@ class SettingController extends Controller
         $returnArr['users'] = User::whereHas('role', function ($query){
             $query->where('name', 'User');
         })->paginate(15);
-        return view('panel.admin.users.list', $returnArr);
-    }
-
-    public function permissionSetting() {
-        $returnArr['users'] = User::whereHas('role', function ($query){
-            $query->where('name', 'User');
-        })->get();
-
-        $returnArr['permissions'] = ['id-1', 'id-2', 'cost-for-run', 'amount-of-investment', 'operating-input'];
-        return view('panel.admin.settings.permission', $returnArr);
-    }
-
-    public function userPermission(Request $request) {
-        $request->validate([
-            'user' => 'required',
-            'permission' => 'required',
-        ]);
-        $user = User::findOrFail($request['user']);
-
-        $permissions = Permission::whereIn('name', $request['permission'])->pluck('id')->all();
-
-        $user->syncPermissions($permissions);
-
-        return redirect()->back()->with('success', 'Permission granted successfully.');
+        return view('back.admin.users.list', $returnArr);
     }
 }
