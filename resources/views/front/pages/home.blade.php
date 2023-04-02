@@ -161,11 +161,12 @@
                     <div class="col-xl-6 col-xxl-5">
                         <!-- Start Section Content -->
                         <div class="section-content">
-                            <span class="section-tag">Special Skills</span>
+                            <span class="section-tag">Special Expertise</span>
                             <h2 class="section-title">My Special Skill Field Here.</h2>
 
-                            <a href="#" class="btn btn-xl btn-outline-one icon-space-left">Get Resume <i
-                                    class="icofont-download"></i></a>
+                            <a href="https://www.upwork.com/freelancers/~01ccc827e449d96028" target="_blank"
+                               class="btn btn-xl btn-outline-one icon-space-left">
+                                Hire Me<i class="icofont-double-right"></i></a>
                         </div>
                         <!-- End Section Content -->
                     </div>
