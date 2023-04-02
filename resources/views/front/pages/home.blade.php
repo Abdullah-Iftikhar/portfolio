@@ -1,5 +1,9 @@
 @extends('front.layout.main')
 
+@push('custom-style')
+    <link rel="stylesheet" href="{{asset('front-assets/css/custom.css')}}">
+@endpush
+
 @section('content')
     <!-- ...::: Start Hero Section :::... -->
     <div class="hero-section section-dark-blue-bg">

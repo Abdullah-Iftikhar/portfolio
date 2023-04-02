@@ -27,6 +27,5 @@
     <link rel="stylesheet" href="{{asset('front-assets/css/vendor/vendor.min.css')}}">
     <link rel="stylesheet" href="{{asset('front-assets/css/plugins/plugins.min.css')}}">
     <link rel="stylesheet" href="{{asset('front-assets/css/style.min.css')}}">
-    <link rel="stylesheet" href="{{asset('front-assets/css/custom.css')}}">
-
+    @stack('custom-style')
 </head>

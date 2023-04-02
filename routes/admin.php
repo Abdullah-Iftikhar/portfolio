@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::group(['middleware' => 'verified', 'auth'], function () {
-    Route::get('/dashboard', '\App\Http\Controllers\DashboardController@dashboard')->name('dashboard');
+    Route::get('/dashboard', '\App\Http\Controllers\Back\DashboardController@index')->name('dashboard');
 
     //Account Settings
     Route::get('setting/profile', '\App\Http\Controllers\SettingController@setting')->name('profile.settings');
