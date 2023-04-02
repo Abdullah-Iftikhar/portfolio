@@ -15,8 +15,12 @@ use Illuminate\Support\Facades\Auth;
 */
 Route::get('/', 'App\Http\Controllers\Front\HomeController@index')->name('home');
 
-require __DIR__ . '/auth.php';
+//require __DIR__ . '/auth.php';
 
-Auth::routes(['verify' => true]);
+//Auth::routes(['verify' => true]);
 
 include "admin.php";
+
+//Auth::routes();
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::group(['prefix' => 'admin', 'middleware' => 'verified', 'auth'], function () {
+Route::group(['prefix' => 'admin', 'middleware' => 'verified', 'auth--1'], function () {
     Route::get('/dashboard', '\App\Http\Controllers\Back\DashboardController@index')->name('dashboard');
 
     //Account Settings
