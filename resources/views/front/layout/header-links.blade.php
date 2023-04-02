@@ -24,8 +24,9 @@
     <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
 
     <!-- Minify Version -->
-    <link rel="stylesheet" href="{{asset('front/assets/css/vendor/vendor.min.css')}}">
-    <link rel="stylesheet" href="{{asset('front/assets/css/plugins/plugins.min.css')}}">
-    <link rel="stylesheet" href="{{asset('front/assets/css/style.min.css')}}">
+    <link rel="stylesheet" href="{{asset('front-assets/css/vendor/vendor.min.css')}}">
+    <link rel="stylesheet" href="{{asset('front-assets/css/plugins/plugins.min.css')}}">
+    <link rel="stylesheet" href="{{asset('front-assets/css/style.min.css')}}">
+    <link rel="stylesheet" href="{{asset('front-assets/css/custom.css')}}">
 
 </head>

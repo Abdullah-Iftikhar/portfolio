@@ -48,7 +48,7 @@
                 </div>
                 <div class="col">
                     <div class="header-btn-link text-end">
-                        <a href="contact.html" class="btn btn-sm btn-outline-one icon-space-left">Hire Me <i
+                        <a href="https://www.upwork.com/freelancers/~01ccc827e449d96028" target="_blank" class="btn btn-sm btn-outline-one icon-space-left">Hire Me <i
                                 class="icofont-double-right"></i></a>
                     </div>
                 </div>

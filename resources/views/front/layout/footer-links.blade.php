@@ -22,8 +22,8 @@
 <script src="assets/js/plugins/material-scrolltop.js"></script> -->
 
 <!-- Minify Version -->
-<script src="{{asset('front/assets/js/vendor.min.js')}}"></script>
-<script src="{{asset('front/assets/js/plugins.min.js')}}"></script>
+<script src="{{asset('front-assets/js/vendor.min.js')}}"></script>
+<script src="{{asset('front-assets/js/plugins.min.js')}}"></script>
 
 <!--Main JS (Common Activation Codes)-->
-<script src="{{asset('front/assets/js/main.js')}}"></script>
+<script src="{{asset('front-assets/js/main.js')}}"></script>

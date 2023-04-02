@@ -9,20 +9,21 @@
                     <div class="col-xxl-7">
                         <div class="hero-content">
                             <h3 class="title-big">Hello! I’m</h3>
-                            <h2 class="title-large">Mirta <span class="shape-mark">Akins</span></h2>
-                            <p>UI/UX Designer specializing in Shopify & Webflow.</p>
+                            <h2 class="title-large">Abdullah <span class="shape-mark">Iftikhar</span></h2>
+                            <p>A Top Rated FULL Stack & TALL Stack Developer</p>
 
-                            <a href="#" class="btn btn-xl btn-outline-one icon-space-left">Get Resume <i
-                                    class="icofont-download"></i></a>
+                            <a href="#" class="btn btn-xl btn-outline-one icon-space-left">
+                                Get Contact
+                            </a>
 
                             <div class="video-link">
-                                <a class="wave-btn" href="https://youtu.be/MKjhBO2xQzg" data-autoplay="true"
+                                <a class="wave-btn"
+                                   href="https://www.youtube.com/watch?v=F7zVhS2dmPE&ab_channel=AbdullahIftikhar"
+                                   data-autoplay="true"
                                    data-vbtype="video">
-
                                     <div class="ripple"><i class="icofont-ui-play"></i></div>
                                 </a>
-
-                                <span class="video-text"> Watch Video</span>
+                                <span class="video-text">Watch Video</span>
                             </div>
 
                         </div>
@@ -43,14 +44,15 @@
 
             <div class="hero-portrait">
                 <div class="image">
-                    <img class="img-fluid" src="assets/images/portrait/portrait-hero.png" alt="">
+                    <img class="img-fluid" src="{{asset('front-assets/images/portrait/portrait-hero.png')}}" alt="">
 
                     <div class="image-half-round-shape"></div>
                     <div class="social-link">
-                        <a href="https://www.example.com/" target="_blank"><i class="icofont-facebook"></i></a>
-                        <a href="https://www.example.com/" target="_blank"><i class="icofont-dribbble"></i></a>
-                        <a href="https://www.example.com/" target="_blank"><i class="icofont-behance"></i></a>
-                        <a href="https://www.example.com/" target="_blank"><i class="icofont-linkedin"></i></a>
+                        <a href="https://www.upwork.com/freelancers/~01ccc827e449d96028" target="_blank">
+                            <small class="upwork-font">Upwork</small></a>
+                        <a href="https://github.com/Abdullah-Iftikhar" target="_blank"><i class="icofont-github"></i></a>
+                        <a href="mailto:abdullah.laraveldev@gmail.com"><i class="icofont-email"></i></a>
+                        <a href="https://www.linkedin.com/in/abdullah-iftikhar-kamboh/" target="_blank"><i class="icofont-linkedin"></i></a>
                     </div>
                 </div>
 
@@ -88,7 +90,9 @@
                                     <!-- Start Service Box Single Item -->
                                     <div class="service-box-single-item swiper-slide">
                                         <div class="inner-shape inner-shape-top-right"></div>
-                                        <div class="icon"><img src="assets/images/icon/service-icon-1.png" alt=""></div>
+                                        <div class="icon"><img
+                                                src="{{asset('front-assets/images/icon/service-icon-1.png')}}" alt="">
+                                        </div>
                                         <h4 class="title"><a href="service-details.html">UI/UX Design</a></h4>
                                         <ul class="list-item">
                                             <li>Landing Pages</li>
@@ -103,7 +107,9 @@
                                     <!-- Start Service Box Single Item -->
                                     <div class="service-box-single-item swiper-slide">
                                         <div class="inner-shape inner-shape-top-right"></div>
-                                        <div class="icon"><img src="assets/images/icon/service-icon-2.png" alt=""></div>
+                                        <div class="icon"><img
+                                                src="{{asset('front-assets/images/icon/service-icon-2.png')}}" alt="">
+                                        </div>
                                         <h4 class="title"><a href="service-details.html">Development</a></h4>
                                         <ul class="list-item">
                                             <li>HTML/CSS</li>
@@ -118,7 +124,9 @@
                                     <!-- Start Service Box Single Item -->
                                     <div class="service-box-single-item swiper-slide">
                                         <div class="inner-shape inner-shape-top-right"></div>
-                                        <div class="icon"><img src="assets/images/icon/service-icon-3.png" alt=""></div>
+                                        <div class="icon"><img
+                                                src="{{asset('front-assets/images/icon/service-icon-3.png')}}" alt="">
+                                        </div>
                                         <h4 class="title"><a href="service-details.html">Illustration</a></h4>
                                         <ul class="list-item">
                                             <li>Character Design</li>
@@ -224,7 +232,7 @@
                         <!-- Start Counterup Single Item -->
                         <div class="counterup-single-item">
                             <div class="icon">
-                                <img src="assets/images/icon/counterup-icon-1.png" alt="">
+                                <img src="{{asset('front-assets/images/icon/counterup-icon-1.png')}}" alt="">
                             </div>
                             <div class="content">
                                 <h2 class="number"><span class="counter">2,58</span>+</h2>
@@ -237,7 +245,7 @@
                         <!-- Start Counterup Single Item -->
                         <div class="counterup-single-item">
                             <div class="icon">
-                                <img src="assets/images/icon/counterup-icon-2.png" alt="">
+                                <img src="{{asset('front-assets/images/icon/counterup-icon-2.png')}}" alt="">
                             </div>
                             <div class="content">
                                 <h2 class="number"><span class="counter">590</span>K</h2>
@@ -250,7 +258,7 @@
                         <!-- Start Counterup Single Item -->
                         <div class="counterup-single-item">
                             <div class="icon">
-                                <img src="assets/images/icon/counterup-icon-3.png" alt="">
+                                <img src="{{asset('front-assets/images/icon/counterup-icon-3.png')}}" alt="">
                             </div>
                             <div class="content">
                                 <h2 class="number"><span class="counter">28</span>+</h2>
@@ -297,10 +305,12 @@
                                 <div class="img-box">
                                     <div class="bg-overlay"></div>
                                     <div class="bg-image">
-                                        <img src="assets/images/project/project-slider-img-1.jpg" alt="">
+                                        <img src="{{asset('front-assets/images/project/project-slider-img-1.jpg')}}"
+                                             alt="">
                                     </div>
                                     <div class="image">
-                                        <img src="assets/images/project/project-slider-img-1.jpg" alt="">
+                                        <img src="{{asset('front-assets/images/project/project-slider-img-1.jpg')}}"
+                                             alt="">
                                     </div>
                                 </div>
                                 <div class="content">
@@ -320,10 +330,12 @@
                                 <div class="img-box">
                                     <div class="bg-overlay"></div>
                                     <div class="bg-image">
-                                        <img src="assets/images/project/project-slider-img-2.jpg" alt="">
+                                        <img src="{{asset('front-assets/images/project/project-slider-img-2.jpg')}}"
+                                             alt="">
                                     </div>
                                     <div class="image">
-                                        <img src="assets/images/project/project-slider-img-2.jpg" alt="">
+                                        <img src="{{asset('front-assets/images/project/project-slider-img-2.jpg')}}"
+                                             alt="">
                                     </div>
                                 </div>
                                 <div class="content">
@@ -343,10 +355,12 @@
                                 <div class="img-box">
                                     <div class="bg-overlay"></div>
                                     <div class="bg-image">
-                                        <img src="assets/images/project/project-slider-img-3.jpg" alt="">
+                                        <img src="{{asset('front-assets/images/project/project-slider-img-3.jpg')}}"
+                                             alt="">
                                     </div>
                                     <div class="image">
-                                        <img src="assets/images/project/project-slider-img-3.jpg" alt="">
+                                        <img src="{{asset('front-assets/images/project/project-slider-img-3.jpg')}}"
+                                             alt="">
                                     </div>
                                 </div>
                                 <div class="content">
@@ -366,10 +380,12 @@
                                 <div class="img-box">
                                     <div class="bg-overlay"></div>
                                     <div class="bg-image">
-                                        <img src="assets/images/project/project-slider-img-4.jpg" alt="">
+                                        <img src="{{asset('front-assets/images/project/project-slider-img-4.jpg')}}"
+                                             alt="">
                                     </div>
                                     <div class="image">
-                                        <img src="assets/images/project/project-slider-img-4.jpg" alt="">
+                                        <img src="{{asset('front-assets/images/project/project-slider-img-4.jpg')}}"
+                                             alt="">
                                     </div>
                                 </div>
                                 <div class="content">
@@ -532,32 +548,40 @@
                                         <!-- Start Company Logo Slider Single Item -->
                                         <div class="company-logo-single-item swiper-slide">
                                             <a href="#" class="image">
-                                                <img src="assets/images/company-logo/company-logo-1.png" alt="">
-                                                <img src="assets/images/company-logo/1.png" alt="">
+                                                <img
+                                                    src="{{asset('front-assets/images/company-logo/company-logo-1.png')}}"
+                                                    alt="">
+                                                <img src="{{asset('front-assets/images/company-logo/1.png')}}" alt="">
                                             </a>
                                         </div>
                                         <!-- End Company Logo Slider Single Item -->
                                         <!-- Start Company Logo Slider Single Item -->
                                         <div class="company-logo-single-item swiper-slide">
                                             <a href="#" class="image">
-                                                <img src="assets/images/company-logo/company-logo-2.png" alt="">
-                                                <img src="assets/images/company-logo/2.png" alt="">
+                                                <img
+                                                    src="{{asset('front-assets/images/company-logo/company-logo-2.png')}}"
+                                                    alt="">
+                                                <img src="{{asset('front-assets/images/company-logo/2.png')}}" alt="">
                                             </a>
                                         </div>
                                         <!-- End Company Logo Slider Single Item -->
                                         <!-- Start Company Logo Slider Single Item -->
                                         <div class="company-logo-single-item swiper-slide">
                                             <a href="#" class="image">
-                                                <img src="assets/images/company-logo/company-logo-3.png" alt="">
-                                                <img src="assets/images/company-logo/3.png" alt="">
+                                                <img
+                                                    src="{{asset('front-assets/images/company-logo/company-logo-3.png')}}"
+                                                    alt="">
+                                                <img src="{{asset('front-assets/images/company-logo/3.png')}}" alt="">
                                             </a>
                                         </div>
                                         <!-- End Company Logo Slider Single Item -->
                                         <!-- Start Company Logo Slider Single Item -->
                                         <div class="company-logo-single-item swiper-slide">
                                             <a href="#" class="image">
-                                                <img src="assets/images/company-logo/company-logo-4.png" alt="">
-                                                <img src="assets/images/company-logo/4.png" alt="">
+                                                <img
+                                                    src="{{asset('front-assets/images/company-logo/company-logo-4.png')}}"
+                                                    alt="">
+                                                <img src="{{asset('front-assets/images/company-logo/4.png')}}" alt="">
                                             </a>
                                         </div>
                                         <!-- End Company Logo Slider Single Item -->
@@ -594,7 +618,7 @@
                             <div class="blog-feed-single-item">
                                 <div class="inner-shape inner-shape-top-right"></div>
                                 <a href="blog-details-sidebar-left.html" class="image">
-                                    <img src="assets/images/blog/blog-feed-img-1.jpg" alt="">
+                                    <img src="{{asset('front-assets/images/blog/blog-feed-img-1.jpg')}}" alt="">
                                 </a>
                                 <div class="content-box">
                                     <div class="content">
@@ -619,7 +643,7 @@
                             <div class="blog-feed-single-item">
                                 <div class="inner-shape inner-shape-top-right"></div>
                                 <a href="blog-details-sidebar-left.html" class="image">
-                                    <img src="assets/images/blog/blog-feed-img-2.jpg" alt="">
+                                    <img src="{{asset('front-assets/images/blog/blog-feed-img-2.jpg')}}" alt="">
                                 </a>
                                 <div class="content-box">
                                     <div class="content">
@@ -644,7 +668,7 @@
                             <div class="blog-feed-single-item">
                                 <div class="inner-shape inner-shape-top-right"></div>
                                 <a href="blog-details-sidebar-left.html" class="image">
-                                    <img src="assets/images/blog/blog-feed-img-3.jpg" alt="">
+                                    <img src="{{asset('front-assets/images/blog/blog-feed-img-3.jpg')}}" alt="">
                                 </a>
                                 <div class="content-box">
                                     <div class="content">
