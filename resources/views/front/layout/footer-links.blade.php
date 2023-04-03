@@ -28,4 +28,15 @@
 <!--Main JS (Common Activation Codes)-->
 <script src="{{asset('front-assets/js/main.js')}}"></script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V0XXFJQQNL"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-V0XXFJQQNL');
+</script>
+<!-- Google tag (gtag.js) -->
+
 @stack('custom-script')
